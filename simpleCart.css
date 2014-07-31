@@ -1,0 +1,72 @@
+.item-name{
+	clear: both;
+    color: blue;
+    float: left;
+    width: 80px;
+}
+.headerRow{
+	background: none repeat scroll 0 0 red;
+    clear: both;
+    display: none;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.item-price{
+display: inline;
+    float: left;
+    margin-left: 130px;
+}
+.item-quantity{
+display: inline;
+    float: left;
+    margin-left: 135px;
+}
+.item-total{
+display: inline;
+    float: left;
+    margin-left: 155px;
+}
+.item-decrement{
+display: none;
+    float: left;
+}
+.item-increment{
+display: none;
+    float: left;
+}
+.item-remove{
+float: left;
+    margin-left: 20px;
+}
+
+#hname{
+float: left;
+margin-right: 100px;
+}
+#hprice{
+float: left;
+margin-right: 100px;
+margin-left:60px;
+}
+#hquantity{
+float: left;
+margin-right: 100px;
+}
+#htotal{
+float: left;
+margin-right: 100px;
+}
+#item-checkout{
+clear: both;
+    margin-top: 30px;
+    padding: 30px;
+    position: absolute;
+    right: 80px;
+    top: 150px;
+}
+#cartItems{
+	bottom: 30px;
+    position: absolute;
+    right: 40px;
+}

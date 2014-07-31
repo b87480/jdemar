@@ -11,7 +11,7 @@
 <link rel="stylesheet" type="text/css" href="css2.css">
 <link rel="stylesheet" type="text/css" href="css3.css">
 <link rel="stylesheet" type="text/css" href="popup.css">
-
+<link rel="stylesheet" type="text/css" href="simpleCart.css">
 
 </head>
 
@@ -189,6 +189,7 @@
 <div>
   
     <label class="btn" for="modal-1">ITEMS IN CART</label>
+    <div id="cartItems" class="simpleCart_quantity"></div>
    
   
 </div>
@@ -199,8 +200,17 @@
   <label class="modal__bg" for="modal-1"></label>
   <div class="modal__inner">
     <label class="modal__close" for="modal-1"></label>
+    <div class="headrow">
+    	<h1 id="hname">name</h1>
+    	<h1 id="hprice">price</h1> 
+    	<h1 id="hquantity">quantity</h1>
+    	<h1 id="htotal">sub total</h1>
+
+    </div>
     <div class="simpleCart_items"></div>
+    <div id="item-checkout">
     <a href="javascript:;" class="simpleCart_checkout">Check Out</a>
+</div>
   </div>
 </div>
 
