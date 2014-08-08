@@ -57,15 +57,7 @@ width: 100px;
 }
 .cartYellow
 {
-background: none repeat scroll 0 0 yellow;
-    height: 30px;
-    left: 447px;
-    padding: 20px;
-    position: absolute;
-    right: 0;
-    text-align: right;
-    top: -40px;
-    width: 200px;
+
 }
 #cart1
 {
@@ -83,14 +75,21 @@ color: black;
 }
 .popupmodal
 {
-	 background: none repeat scroll 0 0 yellow;
+    background: none repeat scroll 0 0 black;
+    border-radius: 5px;
+    color: black;
     height: 30px;
-    left: 760px;
-    padding: 20px;
+    left: 765px;
+    padding: 17px;
     position: absolute;
     right: 0;
     text-align: left;
     top: 90px;
     width: 200px;
+    z-index: 1000;
+}
+#buttonPopUp
+{
+    background-color: yellow;
     z-index: 1000;
 }
