@@ -58,6 +58,7 @@
   width: 1.1em;
   height: 1.1em;
   cursor: pointer;
+  z-index: 1000;
 }
 
 .modal__close:after,

@@ -1,8 +1,36 @@
+.simpleCart_checkout
+{
+    color: yellow;
+}
+.simpleCart_remove
+{
+    color: yellow;
+    float: left;
+    font-size: 16px;
+    margin-top: 20px;
+    position: absolute;
+    text-decoration: none;
+
+
+}
 .item-name{
 	clear: both;
-    color: blue;
+    color: yellow;
     float: left;
-    width: 80px;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+.headrow
+{
+    background: none repeat scroll 0 0 black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
 }
 .headerRow{
 	background: none repeat scroll 0 0 red;
@@ -13,19 +41,33 @@
     width: 100%;
 }
 .item-price{
-display: inline;
+    color: yellow;
+    display: block;
     float: left;
-    margin-left: 130px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    position: relative;
 }
 .item-quantity{
-display: inline;
+    color: yellow;
+    display: inline;
     float: left;
-    margin-left: 135px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    width: 150px;
 }
 .item-total{
-display: inline;
+    color: yellow;
+    display: inline;
     float: left;
-    margin-left: 155px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    width: 180px;
+    position: relative;
 }
 .item-decrement{
 display: none;
@@ -36,34 +78,56 @@ display: none;
     float: left;
 }
 .item-remove{
-float: left;
-    margin-left: 20px;
+    display: inline;
+    float: left;
+    position: relative;
+    margin-left: -20px;
 }
 
 #hname{
-float: left;
-margin-right: 100px;
+    clear: both;
+    color: yellow;
+    float: left;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 17px;
+    width: 150px;
 }
 #hprice{
-float: left;
-margin-right: 100px;
-margin-left:60px;
+    color: yellow;
+    display: block;
+    float: left;
+    font-size: 16px;
+    margin-top: 17px;
+    width: 200px;
+    text-align: center;
+    position: relative;
 }
 #hquantity{
-float: left;
-margin-right: 100px;
+    color: yellow;
+    display: inline;
+    float: left;
+    font-size: 16px;
+    margin-top: 17px;
+    text-align: center;
+    width: 150px;
 }
 #htotal{
-float: left;
-margin-right: 100px;
+    color: yellow;
+    display: inline;
+    float: left;
+    font-size: 16px;
+    margin-top: 17px;
+    text-align: center;
+    width: 180px;
+    position: relative;
 }
 #item-checkout{
-clear: both;
-    margin-top: 30px;
+    clear: both;
+    margin-top: 17px;
     padding: 30px;
-    position: absolute;
-    right: 80px;
-    top: 150px;
+    position: relative;
+    
 }
 #cartItems{
 	bottom: 25px;
@@ -77,4 +141,35 @@ clear: both;
     "Bitstream Vera Sans Bold", 
     "Arial Black", 
     sans serif;
+}
+#checkOutLogo
+{
+    background: none repeat scroll 0 0 black;
+    float: left;
+    left: -30px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    top: -20px;
+    width: 880px;
+}
+#totalCheckout
+{
+    background: none repeat scroll 0 0 black;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+#cartTotalVisual
+{
+    color: yellow;
+    font-size: 16px;
+    left: 450px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 120px;
 }
